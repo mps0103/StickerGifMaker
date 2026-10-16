@@ -1,0 +1,12 @@
+{
+  "extends": "@react-native/typescript-config",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    // The shared RN config declares jest types; this project has no test setup.
+    "types": [],
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {"@/*": ["src/*"]}
+  },
+  "include": ["src", "index.js"]
+}

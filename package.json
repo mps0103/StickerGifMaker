@@ -1,0 +1,43 @@
+{
+  "name": "diecut",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "clean": "cd android && ./gradlew clean",
+    "bundle:release": "cd android && ./gradlew bundleRelease",
+    "apk:release": "cd android && ./gradlew assembleRelease",
+    "lint": "eslint .",
+    "tsc": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@react-navigation/native": "^7.1.9",
+    "@react-navigation/native-stack": "^7.3.13",
+    "react": "19.2.8",
+    "react-native": "0.87.1",
+    "react-native-gesture-handler": "^2.28.0",
+    "react-native-google-mobile-ads": "^16.5.0",
+    "react-native-image-picker": "^8.2.1",
+    "react-native-safe-area-context": "^5.6.0",
+    "react-native-screens": "^4.16.0",
+    "react-native-svg": "^15.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@react-native-community/cli": "20.0.0",
+    "@react-native/babel-preset": "0.87.1",
+    "@react-native/eslint-config": "0.87.1",
+    "@react-native/metro-config": "0.87.1",
+    "@react-native/typescript-config": "0.87.1",
+    "@types/react": "^19.1.0",
+    "eslint": "^8.57.0",
+    "prettier": "^3.3.3",
+    "typescript": "5.8.3"
+  },
+  "engines": {
+    "node": ">=20.19.4"
+  }
+}

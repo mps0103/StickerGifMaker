@@ -1,0 +1,5 @@
+<resources>
+    <color name="ic_launcher_background">#141119</color>
+    <color name="board">#141119</color>
+    <color name="marker">#FF3D87</color>
+</resources>

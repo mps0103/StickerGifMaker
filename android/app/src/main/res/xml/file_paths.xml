@@ -1,0 +1,5 @@
+<paths>
+    <files-path name="stickers" path="stickers/" />
+    <files-path name="gifs" path="gifs/" />
+    <cache-path name="cache" path="." />
+</paths>

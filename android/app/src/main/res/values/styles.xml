@@ -1,0 +1,19 @@
+<resources>
+    <!-- Shown by the system from process start until the first React frame.
+         Android 12+ draws a splash whether we ask for one or not, so we brand it
+         rather than let it fall back to a bare launcher icon on white. -->
+    <style name="AppTheme.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/board</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_logo</item>
+        <item name="windowSplashScreenAnimationDuration">400</item>
+        <item name="postSplashScreenTheme">@style/AppTheme</item>
+    </style>
+
+    <!-- Android 16 enforces edge-to-edge; the app draws its own insets. -->
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/board</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

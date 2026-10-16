@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">DieCut</string>
+    <!-- Replace with the real AdMob app ID before release. This is Google's test ID. -->
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="sticker_pack_publisher">MPS</string>
+</resources>

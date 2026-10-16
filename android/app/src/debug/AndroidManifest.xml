@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Metro serves the JS bundle over plain HTTP on localhost. Android blocks
+         cleartext by default, so without this the debug build starts and then
+         fails to load anything. Debug variant only - release never sees it. -->
+    <application
+        android:usesCleartextTraffic="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        tools:targetApi="36"
+        tools:ignore="GoogleAppIndexingWarning" />
+</manifest>
